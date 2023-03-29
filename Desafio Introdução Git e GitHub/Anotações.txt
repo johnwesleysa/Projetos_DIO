@@ -1,0 +1,2 @@
+Através desse link é possível baixar o git para windows:
+https://git-scm.com/download/win
