@@ -11,8 +11,8 @@ Codigo Condiç¿o de pagamento
 */
 
 //Declarando variaveis
-const valorProduto = 5000
-const formaDePagamento = "em dois cartões"
+const valorProduto = 800
+const formaDePagamento = "a vista no pix"
 const qtdVezes = 12
 
 //Calculo de subtração de 10% sobre o valor do produto.
