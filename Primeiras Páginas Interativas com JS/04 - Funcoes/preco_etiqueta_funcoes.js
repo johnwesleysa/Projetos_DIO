@@ -52,6 +52,6 @@ function nomePagamento (tipoPagamento) {
 
 (function () {
     const valorEtiqueta = 1000
-    const tipoPagamento = 3
+    const tipoPagamento = 4
     console.log(`Você escolheu a forma de pagamento ${nomePagamento(tipoPagamento)} e o valor final do seu produto é RS${calcPorcentagemDesconto(valorEtiqueta, tipoPagamento)}`)
 })()
