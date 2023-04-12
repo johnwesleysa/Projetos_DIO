@@ -16,5 +16,5 @@ function saudacaoPorTurno(turno){
 
 
 (function main() {
-    console.log(saudacaoPorTurno(''))
+    console.log(saudacaoPorTurno('m'))
 })()
