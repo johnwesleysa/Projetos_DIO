@@ -16,6 +16,19 @@ class Pessoa {
     }
 }
 
+function compararPesoa(p1,p2) {
+    if (p1.idade > p2.idade) {
+        return `${p1.nome} é mais velho que ${p2.nome}`
+    } else if (p1.idade < p2.idade) {
+        return `${p1.nome} é mais novo que ${p2.nome}`
+    } else if (p2.idade < p1.idade) {
+        return `${p1.nome} é mais novo que ${p2.nome}`
+    } else if (p2.idade < p1.idade) {
+        return `${p1.nome} é mais novo que ${p2.nome}`
+    } else {
+        return `${p1.nome} tem a a mesma idade de ${p2.nome}`
+    }
+}
     const john = new Pessoa ('John Wesley', 23)
 
     
@@ -24,6 +37,5 @@ class Pessoa {
     
     
 
-john.descrever()
+console.log(compararPesoa())
 console.log('\n')
-vitoria.descrever()
