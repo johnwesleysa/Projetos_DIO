@@ -146,6 +146,6 @@ class colaborador {
 }
 
 (function main () {
-    const john = new colaborador ('John', 'Assistente de TI', 800, 160)
+    const john = new colaborador ('John', 'Assistente de TI', 11, 2000)
     john.descontosSalario()
 })()

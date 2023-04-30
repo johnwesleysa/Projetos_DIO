@@ -8,6 +8,9 @@
     <!--CSS Global-->
     <link rel="stylesheet" href="assets/css/global.css">
 
+    <!--Pokedex-->
+    <link rel="stylesheet" href="assets/css/pokedex.css">
+
     <!--Font Roboto-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,34 +24,34 @@
 
         <h1>Pokedex</h1>
         
-        <ol class="pokemons">
-            <li>
-                Bulbassaur
-                <img src="assets/images/pokemons/Bulbassaur.png" alt="Bulbassaur">
-            </li>
-            <li>
-                Ibysaur
-                <img src="assets/images/pokemons/Ibysaur.png" alt="Ibysaur">
-            </li>
-            <li>
-                Venusaur
-                <img src="assets/images/pokemons/Venusaur.png" alt="Venusaur">
-            </li>
-            <li>
-                Charmander
-                <img src="assets/images/pokemons/Charmander.png" alt="Charmander">
-            </li>
-            <li>
-                Charmeleon
-                <img src="assets/images/pokemons/Charmeleon.png" alt="Charmeleon">
-            </li>
-            <li>
-                Charizard
-                <img src="assets/images/pokemons/Charizard.png" alt="Charizard">
+        <ol id="pokemonList" class="pokemons">
+            <li class="pokemon">
+                <span class="number">#001</span>
+                <span class="name">Bulbassaur</span>
+                
+                <div class="detail">
+                    <ol  class="types">
+                        <li class="type" >Grass</li>
+                        <li class="type" >Poison</li>
+                    </ol>
+
+                    <img src="assets/images/pokemons/Bulbassaur.png" alt="Bulbassaur">
+                </div>
             </li>
         </ol>
-        
     </section>
+
+
+    <!--Javascript-->
+    <script src="assets/js/poke-api.js"></script>
+    <script src="assets/js/main.js"></script>
+
+
+
+
+
+
+
 
 </body>
 </html>
